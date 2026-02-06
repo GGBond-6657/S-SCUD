@@ -1,0 +1,28 @@
+{
+    "chain": [
+        {
+            "phase": "ContractAnalysisCKD",
+            "phaseType": "SimplePhase",
+            "max_turn_step": 1,
+            "need_reflect": "False"
+        },
+        {
+            "phase": "VulnerabilityProbing",
+            "phaseType": "SimplePhase",
+            "max_turn_step": 1,
+            "need_reflect": "False"
+        }
+    ],
+    "recruitments": [
+        "Chief Executive Officer",
+        "Security Analyst"
+    ],
+    "clear_structure": "True",
+    "gui_design": "False",
+    "git_management": "False",
+    "self_improve": "False",
+    "web_spider": "False",
+    "incremental_develop": "False",
+    "with_memory": "False",
+    "background_prompt": "We are a specialized security audit team using CKE/CKD hybrid detection methodology. Our approach combines static rule filtering, risk profiling, and LLM-powered deep analysis to provide cost-effective and accurate vulnerability detection for Solidity smart contracts."
+}
